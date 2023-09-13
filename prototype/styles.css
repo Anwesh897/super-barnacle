@@ -8,9 +8,10 @@ body {
 /* Carousel contents */
 .carouselContents {
     width: 100vw;
-    height: 300px;
-    background: linear-gradient(45deg, dodgerblue, indigo);
+    height: 400px;
+    /* background: linear-gradient(45deg, dodgerblue, indigo); */
     transform: translateX(-50%);
+    padding: 100px;
 }
 
 /*Container*/
@@ -42,39 +43,94 @@ body {
     background: #000;
     width: 150px;
     height: 215px;
-    /* line-height: 200px;
+    line-height: 200px;
     font-size: 5em;
-    text-align: center; 
+    text-align: center;
     color: #FFF;
     opacity: 0.95;
-    border-radius: 10px;*/
+    /*border-radius: 10px;*/
     transition: transform 1s;
 }
 
- .a {
-    transform: rotateY(0deg) translateZ(150px);
+.a {
+    transform: rotateY(0deg) translateZ(300px);
 }
 
 .a .item {
-    background: rgba(94, 17, 17, 0.514);
+    background: rgba(50, 17, 94);
 }
 
 .b {
-    transform: rotateY(120deg) translateZ(150px) rotateY(-120deg);
+    transform: rotateY(36deg) translateZ(300px) rotateY(-36deg);
 }
 
 .b .item {
-    background: rgba(17, 83, 94, 0.514);
+    background: rgba(50, 17, 94);
 }
 
 .c {
-    transform: rotateY(240deg) translateZ(150px) rotateY(-240deg);
+    transform: rotateY(72deg) translateZ(300px) rotateY(-72deg);
 }
 
 .c .item {
-    background: rgba(50, 17, 94, 0.514);
-} 
+    background: rgba(50, 17, 94);
+}
 
+.d {
+    transform: rotateY(108deg) translateZ(300px) rotateY(-108deg);
+}
+
+.d .item {
+    background: rgba(50, 17, 94);
+}
+
+.e {
+    transform: rotateY(144deg) translateZ(300px) rotateY(-144deg);
+}
+
+.e .item {
+    background: rgba(50, 17, 94);
+}
+
+.f {
+    transform: rotateY(180deg) translateZ(300px) rotateY(-180deg);
+}
+
+.f .item {
+    background: rgba(50, 17, 94);
+}
+
+.g {
+    transform: rotateY(216deg) translateZ(300px) rotateY(-216deg);
+}
+
+.g .item {
+    background: rgba(50, 17, 94);
+}
+
+.h {
+    transform: rotateY(252deg) translateZ(300px) rotateY(-252deg);
+}
+
+.h .item {
+    background: rgba(50, 17, 94);
+}
+
+.i {
+    transform: rotateY(288deg) translateZ(300px) rotateY(-288deg);
+}
+
+.i .item {
+    background: rgba(50, 17, 94);
+}
+
+.j {
+    transform: rotateY(324deg) translateZ(300px) rotateY(-324deg);
+}
+
+.j .item {
+    background: rgba(50, 17, 94);
+}
 
 
 /* Main content */
