@@ -11,6 +11,8 @@ function animate(x, y) {
     carousel.style.transform = "rotateY(-" + 36 * x + "deg)"
     for (let i = 0; i < item.length; i++) {
         item[i].style.transform = "rotateY(" + 36 * x + "deg)"
+        item[i].style.backgroundImage = "url(" + "../Asset/" + (i + 1) + ".png" + ")";
+        item[i].style.backgroundSize = "cover"
     }
 
     setTimeout(function () {
