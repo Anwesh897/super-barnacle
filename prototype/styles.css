@@ -8,8 +8,9 @@ body {
 /* Carousel contents */
 .carouselContents {
     width: 100vw;
-    height: 250px;
-    background: black;
+    height: 300px;
+    background: linear-gradient(45deg, dodgerblue, indigo);
+    transform: translateX(-50%);
 }
 
 /* Main content */
@@ -18,7 +19,7 @@ body {
     height: 500px;
     border-radius: 2%;
     background: linear-gradient(to right, rgb(60 59 70), rgb(37 37 42));
-    
+
 }
 
 /* content classes */
@@ -29,7 +30,7 @@ body {
     background: rgb(33 33 39);
     transform: translateX(-175px) translateY(25px);
     box-shadow: 4px 1px 20px 4px black;
-   
+
 
 }
 
@@ -62,6 +63,27 @@ body {
 /* Footer */
 .footer {
     width: 100vw;
-    height: 100px;
-    background: black;
+    height: 100vh;
+    background: linear-gradient(170deg, black, rgb(33 33 39));
+    position: relative;
+    /* left: 179%; */
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+
+/* Plane */
+
+.plane1 {
+    width: 500px;
+    height: 428px;
+    background: rgb(33 33 39);
+    transform: translate(158%, 78%) skew(0deg, 28deg);
+}
+
+.plane2 {
+    width: 500px;
+    height: 428px;
+    background: rgb(221, 221, 233);
+    transform: translate(158%, 78%) skew(0deg, 28deg);
 }
