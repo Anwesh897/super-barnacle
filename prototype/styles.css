@@ -51,7 +51,7 @@ body {
     transition: transform 1s;
 }
 
-/* .a {
+ .a {
     transform: rotateY(0deg) translateZ(150px);
 }
 
@@ -73,14 +73,9 @@ body {
 
 .c .item {
     background: rgba(50, 17, 94, 0.514);
-} */
+} 
 
-label{
-    position: relative;
-    /* text-align: center; */
-    left: 40%;
-    top: 20%;
-}
+
 
 /* Main content */
 .main {
