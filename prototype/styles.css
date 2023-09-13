@@ -13,6 +13,75 @@ body {
     transform: translateX(-50%);
 }
 
+/*Container*/
+.container {
+    width: 150px;
+    height: 215px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+
+/*Carousel*/
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.carousel div {
+    transform-style: preserve-3d;
+}
+
+.item {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 150px;
+    height: 215px;
+    /* line-height: 200px;
+    font-size: 5em;
+    text-align: center; 
+    color: #FFF;
+    opacity: 0.95;
+    border-radius: 10px;*/
+    transition: transform 1s;
+}
+
+/* .a {
+    transform: rotateY(0deg) translateZ(150px);
+}
+
+.a .item {
+    background: rgba(94, 17, 17, 0.514);
+}
+
+.b {
+    transform: rotateY(120deg) translateZ(150px) rotateY(-120deg);
+}
+
+.b .item {
+    background: rgba(17, 83, 94, 0.514);
+}
+
+.c {
+    transform: rotateY(240deg) translateZ(150px) rotateY(-240deg);
+}
+
+.c .item {
+    background: rgba(50, 17, 94, 0.514);
+} */
+
+label{
+    position: relative;
+    /* text-align: center; */
+    left: 40%;
+    top: 20%;
+}
+
 /* Main content */
 .main {
     width: 500px;
